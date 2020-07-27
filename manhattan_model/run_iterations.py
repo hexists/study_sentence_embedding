@@ -93,7 +93,7 @@ class Run_Iterations(object):
         print('seq2      >', sequence2)
         print('ref score =', score.item())
 
-        _, similarity_score = self.evaluate([seqs], score)
+        _, similarity_score = self.evaluate([seqs], score.unsqueeze_(0))
         print('cand score =', similarity_score.item())
 
     def evaluate_randomly(self, n=10):
