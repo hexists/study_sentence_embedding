@@ -51,8 +51,6 @@ Validation Accuracy: 86.331301 Validation Precision: 86.331301 Validation Recall
 seq1      > ['two', 'dogs', 'lawn', 'playing', 'plastic', 'toy']
 seq2      > ['two', 'dogs', 'running', 'catching', 'tennis', 'ball']
 ref score = 3.799999952316284
-/data1/users/daniellee/pytorch/Manhattan-LSTM/PyTorch/.venv/lib/python3.6/site-packages/torch/nn/modules/loss.py:432: UserWarning: Using a target size (torch.Size([])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
-  return F.mse_loss(input, target, reduction=self.reduction)
 cand score = 1.9795472621917725
 seq1      > ['person', 'folding', 'piece', 'paper']
 seq2      > ['person', 'folding', 'piece', 'paper']
@@ -101,8 +99,6 @@ Validation Accuracy: 86.229675 Validation Precision: 86.229675 Validation Recall
 seq1      > ['man', 'clumsily', 'kick', 'boxing', 'trainer']
 seq2      > ['karate', 'practitioner', 'kicking', 'another', 'man', 'wearing', 'protective', 'boxing', 'gloves']
 ref score = 2.799999952316284
-/data1/users/daniellee/pytorch/Manhattan-LSTM/PyTorch/.venv/lib/python3.6/site-packages/torch/nn/modules/loss.py:432: UserWarning: Using a target size (torch.Size([])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
-  return F.mse_loss(input, target, reduction=self.reduction)
 cand score = 2.805457353591919
 seq1      > ['man', 'elegant', 'dress', 'surrounded', 'photographers']
 seq2      > ['man', 'surrounded', 'photographers', 'wearing', 'gray', 'suit', 'glasses']
